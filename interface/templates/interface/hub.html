@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% load static %}
+{% block style %}{% static "interface/style.css"  %}{% endblock %}  
+
+{% block content %}
+<p>La date actuelle est        : {{ date }}</p>
+<p>La température actuelle est : {{ temp }}°C</p>
+{% endblock %}
